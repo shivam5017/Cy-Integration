@@ -3,7 +3,7 @@ on: [push]
 jobs:
   test:
     call-workflow-in-local-repo:
-    uses: shivam5017/cy-integration/.github/workflows/workflow-2.yml
+    uses: shivam5017/cy-integration/.github/workflows/workflow/ci.yml
     with:
       start: 'npm start'
       wait-on: 'http://localhost:3000'
