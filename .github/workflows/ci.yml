@@ -2,10 +2,8 @@ name: ci
 on: [push]
 jobs:
   test:
-    # use the reusable workflow to check out the code, install dependencies
-    # and run the Cypress tests
-    # https://github.com/bahmutov/cypress-workflows
-    uses: shivam5017/cy-integration/.github/workflows/standard.yml@v1
+    call-workflow-in-local-repo:
+    uses: shivam5017/cy-integration/.github/workflows/workflow-2.yml
     with:
       start: 'npm start'
       wait-on: 'http://localhost:3000'
