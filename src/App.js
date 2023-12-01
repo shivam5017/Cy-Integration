@@ -4,9 +4,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-     <h1>Github Integration</h1>
+     <h1 data-cy="heading">Github Integration</h1>
      <button>Checking</button>
-     <h2>Flows</h2>
+     <h2>hey its shivam</h2>
     </div>
   );
 }
