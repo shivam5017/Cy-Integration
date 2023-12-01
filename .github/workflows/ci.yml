@@ -5,7 +5,7 @@ jobs:
     # use the reusable workflow to check out the code, install dependencies
     # and run the Cypress tests
     # https://github.com/bahmutov/cypress-workflows
-    uses: shivam5017/cy-integration/cy-integration/.github/workflows/standard.yml@v1
+    uses: shivam5017/cy-integration/.github/workflows/standard.yml@v1
     with:
       start: 'npm start'
       wait-on: 'http://localhost:3000'
