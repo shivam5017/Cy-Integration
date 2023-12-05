@@ -11,7 +11,7 @@ describe('template spec', () => {
     
   })
   it('displays heading', () => {
-    cy.get('[data-cy="heading"]').should('have.text','Github Integration')  
+    cy.get('[data-cy="heading"]').should('have.text','Github ')  
   })
   
 })
