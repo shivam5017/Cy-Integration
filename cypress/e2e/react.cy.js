@@ -18,4 +18,7 @@ describe('template spec', () => {
     cy.get('[data-cy="Name"]').should('have.text',"Shivam Malik")
   })
 
+  it('Type Name',()=>{
+    cy.get('[data-cy="Input"]').type('hello')
+  })
 })
