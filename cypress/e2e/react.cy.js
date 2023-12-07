@@ -11,7 +11,11 @@ describe('template spec', () => {
     
   })
   it('displays heading', () => {
-    cy.get('[data-cy="heading"]').should('have.text','Github ')  
+    cy.get('[data-cy="heading"]').should('have.text','Github Integration')  
   })
   
+  it('Display my name',()=>{
+    cy.get('[data-cy="Name"]').should('have.text',"Shivam Malik")
+  })
+
 })

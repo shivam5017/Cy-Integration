@@ -6,7 +6,7 @@ function App() {
     <div className="App">
      <h1 data-cy="heading">Github Integration</h1>
      <button>Checking</button>
-     <h2>hey its shivam Malik </h2>
+     <h2 data-cy="Name">Shivam Malik</h2>
     </div>
   );
 }
